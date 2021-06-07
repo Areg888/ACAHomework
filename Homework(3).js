@@ -30,14 +30,14 @@ alert(value.includes(digit) ? "Yes" : "No");
 
 // Second var.
 const number = prompt("Give a number:");
-const digit1 = prompt("Give a digit:");
+const digit1 = +prompt("Give a digit:");
 for (let i = 0; i < number.length; i++) {
-    if (number[i] == digit1) {
+    if (number[i] == Math.abs(digit1)) {
         alert("Yes");
+        break;
     }
     else{
         alert("No");
-        break;
     }
 }
 
