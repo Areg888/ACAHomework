@@ -35,7 +35,9 @@ const digit1 = prompt("Give a digit:");
 for (let i = 0; i < number.length; i++) {
     if (number[i] == digit1) {
         alert("Yes");
-        break;
+    }
+    else{
+        alert("No");
     }
 }
 alert("No");
