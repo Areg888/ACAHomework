@@ -29,7 +29,6 @@ const digit = prompt("Give a digit:");
 alert(value.includes(digit) ? "Yes" : "No");
 
 // Second var.
-
 const number = prompt("Give a number:");
 const digit1 = prompt("Give a digit:");
 for (let i = 0; i < number.length; i++) {
@@ -38,9 +37,9 @@ for (let i = 0; i < number.length; i++) {
     }
     else{
         alert("No");
+        break;
     }
 }
-alert("No");
 
 //Ex. 4
 let number = 1596;
