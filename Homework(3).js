@@ -29,8 +29,6 @@ const digit = prompt("Give a digit:");
 alert(value.includes(digit) ? "Yes" : "No");
 
 // Second var.
-const number = prompt("Give a number:");
-const digit1 = prompt("Give a digit:");
 
 const number = prompt("Give a number:");
 const digit1 = prompt("Give a digit:");
