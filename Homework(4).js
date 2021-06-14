@@ -48,3 +48,17 @@ if (n >= 1 && n <= 10 && m >= 1 && m <= 10) {
 } else {
     alert("no");
 }
+
+// var. 2
+let n = +prompt("Enter first number");
+let m = +prompt("Enter second number");
+
+if (n >= 1 && n <= 10 && m >= 1 && m <= 10) {
+    let result = 1;
+    for(let i = 0; i < m; i++){
+        result = n * result;    
+    }
+    alert(result);
+} else {
+    alert("no");
+}
